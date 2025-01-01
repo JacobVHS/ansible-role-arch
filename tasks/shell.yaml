@@ -1,0 +1,9 @@
+---
+
+- name: Install required packages
+  pacman:
+    name: "{{ base_packages }}"
+    state: present
+
+- name: Push zsh config
+  copy

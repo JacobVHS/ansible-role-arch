@@ -1,0 +1,9 @@
+---
+
+- name: Install shell utilities
+  include_tasks:
+    file: shell.yaml
+
+- name: Setup Hyprland Environment on Arch Linux
+  include_tasks:
+    file: hyprland.yaml
