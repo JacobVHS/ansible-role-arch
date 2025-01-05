@@ -39,3 +39,5 @@ additional_packages:
   - neofetch                 # System info tool
   - htop                     # Process viewer
   - pavucontrol              # Audio control
+
+username: jacob
